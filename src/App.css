@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li div {
+  display: flex;
+}
+
+button {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+input,
+button {
+  padding: 8px;
+}
+
+input {
+  width: 200px;
+}
